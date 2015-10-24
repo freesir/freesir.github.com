@@ -1,17 +1,23 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Jekyll Bootstrap</title>
-    <description></description>
-    <link>/</link>
-    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 24 Oct 2015 02:09:45 -0400</pubDate>
-    <lastBuildDate>Sat, 24 Oct 2015 02:09:45 -0400</lastBuildDate>
-    <generator>Jekyll v2.5.3</generator>
-    
-      <item>
-        <title>Welcome to Jekyll!</title>
-        <description>&lt;p&gt;You’ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+ <title>Jekyll Bootstrap</title>
+ <link href="http://username.github.io/atom.xml" rel="self"/>
+ <link href="http://username.github.io"/>
+ <updated>2015-10-24T02:09:45-04:00</updated>
+ <id>http://username.github.io</id>
+ <author>
+   <name>Name Lastname</name>
+   <email>blah@email.test</email>
+ </author>
+
+ 
+ <entry>
+   <title>Welcome to Jekyll!</title>
+   <link href="http://username.github.io/jekyll/update/2015/10/23/welcome-to-jekyll"/>
+   <updated>2015-10-23T18:54:11-04:00</updated>
+   <id>http://username.github.io/jekyll/update/2015/10/23/welcome-to-jekyll</id>
+   <content type="html">&lt;p&gt;You’ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
 
 &lt;p&gt;To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
 
@@ -25,21 +31,15 @@
 
 &lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://github.com/jekyll/jekyll-help&quot;&gt;Jekyll’s dedicated Help repository&lt;/a&gt;.&lt;/p&gt;
 
-</description>
-        <pubDate>Fri, 23 Oct 2015 18:54:11 -0400</pubDate>
-        <link>/jekyll/update/2015/10/23/welcome-to-jekyll</link>
-        <guid isPermaLink="true">/jekyll/update/2015/10/23/welcome-to-jekyll</guid>
-        
-        
-        <category>jekyll</category>
-        
-        <category>update</category>
-        
-      </item>
-    
-      <item>
-        <title>Jekyll Introduction</title>
-        <description>
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Jekyll Introduction</title>
+   <link href="http://username.github.io/lessons/2011/12/29/jekyll-introduction"/>
+   <updated>2011-12-29T00:00:00-05:00</updated>
+   <id>http://username.github.io/lessons/2011/12/29/jekyll-introduction</id>
+   <content type="html">
 &lt;p&gt;This Jekyll introduction will outline specifically  what Jekyll is and why you would want to use it.
 Directly following the intro we’ll learn exactly &lt;em&gt;how&lt;/em&gt; Jekyll does what it does.&lt;/p&gt;
 
@@ -454,23 +454,8 @@ As noted, our main programming constraint is the fact that our API is limited to
 
 &lt;p&gt;Please take a look at []()
 or jump right into &lt;a href=&quot;&quot;&gt;Usage&lt;/a&gt; if you’d like.&lt;/p&gt;
-</description>
-        <pubDate>Thu, 29 Dec 2011 00:00:00 -0500</pubDate>
-        <link>/lessons/2011/12/29/jekyll-introduction</link>
-        <guid isPermaLink="true">/lessons/2011/12/29/jekyll-introduction</guid>
-        
-        <category>intro</category>
-        
-        <category>beginner</category>
-        
-        <category>jekyll</category>
-        
-        <category>tutorial</category>
-        
-        
-        <category>lessons</category>
-        
-      </item>
-    
-  </channel>
-</rss>
+</content>
+ </entry>
+ 
+ 
+</feed>
